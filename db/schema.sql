@@ -1,9 +1,9 @@
-CREATE DATABASE burgers_db;
-USE burgers_db;
+CREATE DATABASE burgers1_db;
+USE burgers1_db;
 
 CREATE TABLE burgers (
     id INT AUTO_INCREMENT NOT NULL,
     burger_name VARCHAR(100),
-    devoured TINYINT,
+    devoured BOOL DEFAULT false,
     PRIMARY KEY (id)
 );
