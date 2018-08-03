@@ -18,4 +18,4 @@ var burger = {
     }
 };
 
-model.exports = burger.js
+module.exports = burger.js;
